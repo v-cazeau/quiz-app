@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+:root {
+    --color-white: #ffffff;
+    --color-grey: #333333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*, *::before, *::after {margin: 0; padding: 0; box-sizing: inherit}
+
+body {
+    background-color: rgb(182, 50, 205);
+    background-image: url("/public/images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p, li {
+    font-size: clamp(17px, 4vw, 21px)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: clamp(31px, 4vw, 58px);
+    font-weight: 800; 
+    text-align: center; 
+    padding:15px
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-card, .quiz-result {
+    background-color: rgba(245, 245, 245, 0.517);
+    border-radius: 13px;
+    padding: 40px; 
+    opacity: 0.91;
+    border: 5px solid navajowhite
+}
+
+.quiz-card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.quiz-card ul li {
+    padding: 5px; 
+}
+
+.quiz-card ul li:hover {
+    background-color: rgba(237, 37, 213, 0.874);
+}
+
+footer {
+    text-align:center
 }

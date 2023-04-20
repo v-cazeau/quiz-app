@@ -1,0 +1,87 @@
+[
+    {
+        "id":"1",
+        "question":"What's the name of the first Black Republic?",
+        "option": [
+            {
+                "answer": "Ireland",
+                "isCorrect":false
+            },
+            {
+                "answer": "Botswana", 
+                "isCorrect": false
+            },
+            {
+                "answer":"Djabuti", 
+                "isCorrect": false 
+            },
+            {
+                "answer":"Haiti", 
+                "isCorrect": true
+            }
+        ]
+    },
+
+    {
+        "id":"2",
+        "question": "Where does the muffin man  live?",
+        "option": [
+            {
+                "answer":"P Sherman, 42 Wallaby Way, Sydney, Australia",
+                "isCorrect": false
+            },
+            {   
+                "answer":"America",
+                "isCorrect": false
+            },
+            {
+                "answer":"Florida", 
+                "isCorrect": false
+            },
+            {
+                "answer":"Drury Lane", 
+                "isCorrect": true
+            }
+        ]
+    }, 
+    {
+        "id":"3", 
+        "question":"How much wood did a wood chuck chuck? ", 
+        "option": [
+            {
+                "answer":"I don't know", 
+                "isCorrect":false
+            }, 
+            {
+                "answer":"Norris", 
+                "isCorrect":false
+            },
+            {  
+                "answer":"Davee Croket",
+                "isCorrect":false
+            },
+            {
+                "answer":"infinite",
+                "isCorrect": true
+            }
+        ]
+    }, 
+    {
+            "id":"4", 
+            "question":"Why did the chicken cross the road?",
+            "option": [
+                {
+                    "answer":"to get to the other side",
+                    "isCorrect": true
+                }, 
+                {
+                    "answer":"because he was Bob",
+                    "isCorrect": true 
+                },
+                {
+                    "answer":"because he is going to the farm", 
+                    "isCorrect": true
+                }
+            ]
+    }
+]
