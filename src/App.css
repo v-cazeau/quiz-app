@@ -15,14 +15,16 @@ body {
 }
 
 p, li {
-    font-size: clamp(17px, 4vw, 21px)
+    font-size: clamp(17px, 4vw, 21px);
 }
 
 h1 {
     font-size: clamp(31px, 4vw, 58px);
     font-weight: 800; 
     text-align: center; 
-    padding:15px
+    padding:15px; 
+    color: rgb(159, 174, 183);
+    
 }
 
 h2 {
@@ -34,7 +36,7 @@ h2 {
     border-radius: 13px;
     padding: 40px; 
     opacity: 0.91;
-    border: 5px solid navajowhite
+    border: 5px solid navajowhite;
 }
 
 .quiz-card ul {
@@ -52,5 +54,6 @@ h2 {
 }
 
 footer {
-    text-align:center
+    text-align:center;
+    color: rgb(159, 174, 183);
 }

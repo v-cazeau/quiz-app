@@ -7,7 +7,7 @@ export default function QuizResult( {score, quizLength, handleReset} ) {
             <Container className="quiz-result"> 
                 <Row> 
                     <Col> 
-                        <h2>QuizResult</h2>
+                        <h2>Quiz Result</h2>
                         <p>Your scored{score} out of {quizLength}. </p>
                         <Button onClick={handleReset}>Reset</Button>
                     </Col>

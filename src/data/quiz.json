@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "question":"What's the name of the first Black Republic?",
+        "question":"What's the name of the first free Black Republic in the world?",
         "option": [
             {
                 "answer": "Ireland",
@@ -79,7 +79,7 @@
                     "isCorrect": true 
                 },
                 {
-                    "answer":"because he is going to the farm", 
+                    "answer":"because he was going to the farm", 
                     "isCorrect": true
                 }
             ]
